@@ -1,0 +1,25 @@
+h1{
+    padding-top: 2em;
+    padding-bottom:2em;
+    padding-left:25%;
+    background: #2eaec1;
+    color: white;
+    font-family: Impact, sans-serif;
+}
+h2{
+    margin-left: 10%;
+}
+
+nav{
+    margin-left: 15%;
+    padding-bottom: 3%;
+}
+
+footer {
+        padding: 3em;
+        margin-bottom: 20px;
+        background: #2eaec1;
+        color: white;
+        text-align: center;
+
+  }
