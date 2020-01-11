@@ -24,10 +24,10 @@ let d = new Date();
 let dayName = daynames [d.getDay()];
 let monthName = months [d.getMonth()];
 let year = d.getFullYear();
-let fulldate = dayName + "," + monthName + " " + d.getDate() + "," + year;
+let fulldate = dayName + "," + monthName + " " + d.getDate() + "," + yyyy ;
 
 
-document.getElementById("currentdate").textcontent = fulldate;
+document.getElementById("currentdate").textcontent = Date();
 
 try{
     let options = {
@@ -42,5 +42,4 @@ try{
     }
     catch(e){
         alert("Error with code or browser does no support Locale");
-    }
-}
+    };

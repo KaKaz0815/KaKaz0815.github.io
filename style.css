@@ -9,14 +9,16 @@ img{
 h1{
     padding-top: 1.25em;
     padding-bottom:1.25em;
-    padding-left:25%;
+    padding-left:15%;
     background: #2eaec1;
     color: white;
-    font-family: Impact, sans-serif;
+    font-family: Arial, sans serif;
+    font-size: 52px;
     border-radius: 25px;
 }
 h2{
     margin-left: 10%;
+    font-family: Arial, sans serif;
 }
 
 
@@ -32,5 +34,6 @@ footer {
         color: white;
         text-align: center;
         border-radius: 25px;
+        font-family: Arial, sans serif;
 
   }
