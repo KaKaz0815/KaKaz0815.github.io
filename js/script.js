@@ -28,4 +28,6 @@ let year = d.getFullYear();
 let fulldate = dayName + "," + monthName + " " + d.getDate() + "," + year ;
 
 
-document.getElementById("currentdate").textcontent = fulldate;
+document.getElementById("currentdate").innerHTML = fulldate;
+
+console.log(fulldate);
