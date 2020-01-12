@@ -1,7 +1,8 @@
+
 img{  
     float: right;
     position: relative;
-    right: 15%;
+    right: 10%;
     top: 2em;
     box-shadow: 10px 10px 5px grey;
 }
@@ -9,11 +10,11 @@ img{
 h1{
     padding-top: 1.25em;
     padding-bottom:1.25em;
-    padding-left:15%;
+    padding-left:10%;
     background: #2eaec1;
     color: white;
     font-family: Arial, sans serif;
-    font-size: 52px;
+    font-size: 48px;
     border-radius: 25px;
 }
 h2{
