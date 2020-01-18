@@ -1,0 +1,11 @@
+
+    h1{
+        padding-top: 1.25em;
+        padding-bottom:1.25em;
+        padding-left:10%;
+        background: #2eaec1;
+        color: white;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 48px;
+        border-radius: 25px;
+    }
