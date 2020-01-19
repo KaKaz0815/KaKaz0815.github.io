@@ -1,11 +1,112 @@
 
+   
     h1{
         padding-top: 1.25em;
         padding-bottom:1.25em;
-        padding-left:10%;
+        padding-left: 7%;
         background: #2eaec1;
         color: white;
         font-family: 'Titillium Web', sans-serif;
         font-size: 48px;
         border-radius: 25px;
     }
+
+    h2{
+        color: lightcyan;
+        font-family: 'Titillium Web', sans-serif;
+        float: right;
+        padding-top: 5em;
+        padding-right: 1.5em;    
+    }
+
+    h3{
+        padding: 1em;
+        background: #77bf6f;
+        color: white;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 24px;
+        border-radius: 25px;
+    }
+
+    h5{
+        
+        background: #c5e4e6;
+        border-radius: 25px;
+        font-family: sans-serif;
+    width: 400px;
+  height: 500px;
+  padding: 35px;
+  box-sizing: border-box;
+    }
+
+    body a:link{
+        color: grey;
+        font-family: sans-serif;
+      }
+    body a:visited{
+        color: grey;
+      }
+      
+    body a:hover{
+        color: darkgoldenrod;
+     }
+      
+    .table {
+        display: table; 
+        margin: 0 auto;
+        
+    }
+    
+    ul#horizontal-list {
+        list-style: none;
+        padding-top: 1px;
+        
+        
+    }
+    ul#horizontal-list li {
+            display: inline;
+            
+     }
+     li{
+        margin: 0px 10px;
+        padding: 1PX;
+      }
+
+
+      .column {
+        float: left;
+        width: 30%;
+        padding: .5%;
+        padding-left: 2%;
+        text-align: center;
+        align-items: center;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+
+
+footer {
+        padding: 1.5em;
+        margin-bottom: 20px;
+        background: #2eaec1;
+        color: white;
+        text-align: center;
+        font-family: Arial, sans serif;
+        font-size: 1em;
+
+  }
+  footer a:link{
+    color: white;
+  }
+  footer a:visited{
+    color: white;
+  }
+  footer a:hover{
+    color: darkgoldenrod;
+  }
