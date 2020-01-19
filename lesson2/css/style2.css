@@ -16,7 +16,7 @@
         font-family: 'Titillium Web', sans-serif;
         float: right;
         padding-top: 5em;
-        padding-right: 1.5em;    
+        padding-right: 7%;    
     }
 
     h3{
@@ -28,15 +28,19 @@
         border-radius: 25px;
     }
 
+    
+
     h5{
-        
+        padding-top: 1.25em;
+        padding-bottom:1.25em;
+        padding-left: 7%;
+        padding-right: 7%;
         background: #c5e4e6;
+        color: darkslategrey;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 14px;
         border-radius: 25px;
-        font-family: sans-serif;
-    width: 400px;
-  height: 500px;
-  padding: 35px;
-  box-sizing: border-box;
+        height: 400px;
     }
 
     body a:link{
