@@ -1,5 +1,11 @@
 
    
+    main{
+      display: grid;
+      grid-template-columns: 1fr;
+      padding-left: 5%;
+  }
+    
     h1{
         padding-top: 1.25em;
         padding-bottom:1.25em;
@@ -7,16 +13,18 @@
         background: #2eaec1;
         color: white;
         font-family: 'Titillium Web', sans-serif;
-        font-size: 48px;
+        font-size: 28px;
         border-radius: 25px;
+        
     }
 
     h2{
         color: lightcyan;
         font-family: 'Titillium Web', sans-serif;
         float: right;
-        padding-top: 5em;
-        padding-right: 7%;    
+        padding-top: 4em;  
+        font-size: 14px; 
+        padding-right: 5%;
     }
 
     h3{
@@ -26,9 +34,13 @@
         font-family: 'Titillium Web', sans-serif;
         font-size: 24px;
         border-radius: 25px;
+        width:300px;
+        text-align: center;
     }
 
-    
+    h4{
+      padding-left: 7em;
+    }
 
     h5{
         padding-top: 1.25em;
@@ -40,8 +52,14 @@
         font-family: 'Titillium Web', sans-serif;
         font-size: 14px;
         border-radius: 25px;
-        height: 400px;
+        width:300px;
+        height: 350px;
     }
+
+
+.table{
+  padding-left: 5%;
+}
 
     body a:link{
         color: grey;
@@ -54,44 +72,6 @@
     body a:hover{
         color: darkgoldenrod;
      }
-      
-    .table {
-        display: table; 
-        margin: 0 auto;
-        
-    }
-    
-    ul#horizontal-list {
-        list-style: none;
-        padding-top: 1px;
-        
-        
-    }
-    ul#horizontal-list li {
-            display: inline;
-            
-     }
-     li{
-        margin: 0px 10px;
-        padding: 1PX;
-      }
-
-
-      .column {
-        float: left;
-        width: 30%;
-        padding: .5%;
-        padding-left: 2%;
-        text-align: center;
-        align-items: center;
-      }
-      
-      /* Clear floats after the columns */
-      .row:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
 
 
 
@@ -113,4 +93,8 @@ footer {
   }
   footer a:hover{
     color: darkgoldenrod;
+  }
+
+  img{
+    padding-left: 2em;
   }
