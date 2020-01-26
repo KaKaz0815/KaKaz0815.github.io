@@ -1,7 +1,9 @@
 @media only screen and (min-width: 60em){
 
 
-main{
+
+
+    main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -13,7 +15,9 @@ h2{
     font-size: 24px;   
     }
 
-}
 h5{
     height: 300px;
+}
+
+
 }
