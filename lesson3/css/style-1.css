@@ -124,4 +124,7 @@ footer a:visited{
 	width: 25%;
 }
 	
-
+li{
+	color: black;
+	font-family: 'Oswald', sans-serif;
+}
