@@ -16,6 +16,7 @@ footer {
 	padding: 30px;
 	line-height: .5%;
 	font-size: 12pt;
+	font-family: 'Oswald', sans-serif;
 }
 
 
@@ -26,6 +27,7 @@ footer {
 	max-width: 767px;
 	margin: 0 auto;
 	color: white;
+	font-family: 'Oswald', sans-serif;
 
 }
 
@@ -50,6 +52,7 @@ h3 {
 
 h4{
 	color:black;
+	font-family: 'Oswald', sans-serif;
 }
 
 img{
@@ -59,7 +62,7 @@ img{
     margin-right: auto;
 	margin-top: .5rem;
 	padding: 1em;
-	width: 75%;
+	width: 100%;
 }
 
 
@@ -122,3 +125,4 @@ footer a:visited{
 	width: 25%;
 }
 	
+

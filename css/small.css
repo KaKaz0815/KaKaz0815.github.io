@@ -1,11 +1,22 @@
 
+header,
+nav,
+main,
+body,
+footer {
+	max-width: 767px;
+	margin: 0 auto;
+	color: white;
+
+}
+
 img{  
 
     width: 175px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
+    margin-top: .5em;
 }
 
 header{
@@ -20,15 +31,24 @@ header{
     text-align: center;
 }
 h2{
-    font-size: 1em;
-    margin-left: 10%;
-    font-family: 'Titillium Web', sans-serif;
+  padding-left:10%;
+  background: white;
+  color: Black;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.5em;
+  align-items: center;
+  text-align: left;
 }
 
 
 nav{
-    margin-left: 15%;
-    padding-bottom: 3%;
+  padding-left:15%;
+  background: white;
+  color: Black;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1em;
+  align-items: center;
+  text-align: left;
 }
 
 footer a:link{
