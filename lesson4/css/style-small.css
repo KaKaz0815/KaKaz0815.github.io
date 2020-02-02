@@ -30,19 +30,17 @@ footer {
 	padding: 30px;
 	line-height: .5%;
 	font-size: 12pt;
-	font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    margin: 0 auto;
+	color: white;
 }
 
 
 
 nav,
-main,
-footer {
-	
+main{
 	margin: 0 auto;
-	color: white;
 	font-family: 'Oswald', sans-serif;
-
 }
 
 .headings{
@@ -60,7 +58,9 @@ h1 {
 
 h2 {
 	font-family: 'Lobster', cursive;
-	color: black;
+    color: black;
+    font-size: 2rem;
+    text-align: center;
 }
 
 h3 {
@@ -96,11 +96,11 @@ img{
 main {
 	display: grid;
 	grid-template-columns: 1fr;
-	font-size: 0.8rem;
+    font-size: 0.8rem;
 }
-main article {
+main div {
 	margin: 1rem;
-	padding: 0 1rem;
+	padding: 1rem;
 	background-color: #c9cfd3;
 }
 main picture {

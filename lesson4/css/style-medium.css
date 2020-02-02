@@ -16,8 +16,15 @@
         }
         
         main {
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr;
+            max-width: 767px;
         }
+
+        main div {
+            font-size: 1rem;
+        }
+
+
         article:nth-child(3) {
             grid-column: span 1;
         }
