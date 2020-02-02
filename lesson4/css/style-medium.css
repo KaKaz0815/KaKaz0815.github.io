@@ -1,0 +1,40 @@
+
+	/* Tablet Views */
+    @media only screen and (min-width: 37.5em) {
+        /* Horizontal Menu Examples */
+        /* Flex *********************/
+            nav ul { display: flex; }
+            nav ul li { flex: 1 1 100%; }
+        
+        nav {
+	        
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+            nav a {
+            font-size: 1rem;
+        }
+        
+        main {
+            grid-template-columns: 1fr 1fr;
+        }
+        article:nth-child(3) {
+            grid-column: span 1;
+        }
+    
+        h1 {
+            font-size: 2.25rem;
+            
+        }
+        h3 {
+            font-size: 1.5rem;
+            font-family: 'BenchNine', sans-serif;
+            color:#bcac4f;
+        }
+
+        #logo img{
+            width: 175px;
+        }
+        
+    
+    }

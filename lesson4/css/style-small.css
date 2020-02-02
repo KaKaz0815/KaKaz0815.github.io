@@ -1,0 +1,217 @@
+@charset "UTF-8"; /* not necessary */
+/* bluegrey matter   #637f80 light  #536872  #708090  #536878  #36454f dark */
+body {
+	font-size: 16px;
+    font-family: "Sansita", Ubuntu, sans-serif;
+    
+}
+
+/* phone or baseline views **************************/
+
+header{
+    
+    margin: 0 auto;
+    background-color: #211818;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    padding: 30px;
+    line-height: .5%;
+	
+}
+
+footer {
+    
+	background-color: #211818;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 30px;
+	line-height: .5%;
+	font-size: 12pt;
+	font-family: 'Oswald', sans-serif;
+}
+
+
+
+nav,
+main,
+footer {
+	
+	margin: 0 auto;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+.headings{
+    display:flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+	font-size: 1.75rem;
+	font-family: 'Lobster', cursive;
+    color: white;
+}
+
+h2 {
+	font-family: 'Lobster', cursive;
+	color: black;
+}
+
+h3 {
+	font-size: 1rem;
+	font-family: 'BenchNine', sans-serif;
+    color:#bcac4f;
+}
+
+h4{
+	color:black;
+	font-family: 'Oswald', sans-serif;
+}
+
+
+
+img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: .5rem;
+	padding: 1em;
+	width: 100%;
+}
+
+
+
+
+
+.active {
+	color: yellow;
+}
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+main article {
+	margin: 1rem;
+	padding: 0 1rem;
+	background-color: #c9cfd3;
+}
+main picture {
+	margin: 1rem;
+}
+
+footer {
+	flex: 0 1 100%;
+	height: 2rem;
+	
+}
+
+footer a:link{
+  color: white;
+}
+footer a:visited{
+  color:#bcac4f;
+}
+
+
+	
+li{
+	color: black;
+	font-family: 'Oswald', sans-serif;
+}
+
+#logo img{
+    width: 100px;
+}
+
+#icon img{
+    width: 50px;
+   
+}
+
+
+
+/* Navigation */
+
+nav {
+	background-color:#c14532;
+	text-align: center;
+	
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+}
+nav a:hover {
+	background-color: #47aa9d;
+	color: #36454f;
+}
+
+
+
+
+nav {
+	margin: 0 auto;
+    max-width: 760px;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+.responsive li {
+	display: block;
+}
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; 
+		flex: 1 1 100%;
+	}
+
+	
+	.navigation li:first-child {
+		display: none;
+	}
+}
+
+
+
+
