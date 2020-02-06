@@ -35,7 +35,12 @@ footer {
 	color: white;
 }
 
-
+.contentbox{
+	color:#211818;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16pt;
+	margin: 0 ;
+}
 
 nav,
 main{
@@ -59,7 +64,7 @@ h1 {
 h2 {
 	font-family: 'Lobster', cursive;
     color: black;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -217,4 +222,31 @@ div#message{background: #bcac4f;}
 div.showme{display:block;}
 div.hideme{display:none;}
 
+}
+
+/* Table styling 5 day forcast*/
+table, th, td {
+	border:3.5px solid  #bcac4f;
+	border-collapse: collapse;
+	padding: 5px;
+	
+	
+}
+
+th {
+	font-size: 18px;
+	background-color: #47aa9d;
+	color: white;
+	font-family: 'BenchNine', sans-serif;
+	
+}
+
+td {
+	background-color:  white;
+	font-size: 13px;
+	text-align: center;
+}
+
+img{
+	width: 75%;
 }
