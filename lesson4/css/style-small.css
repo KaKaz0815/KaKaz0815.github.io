@@ -75,10 +75,6 @@ h3 {
     color:#bcac4f;
 }
 
-h4{
-	color:black;
-	font-family: 'Oswald', sans-serif;
-}
 
 
 
@@ -201,8 +197,7 @@ nav {
 	display: block;
 }
 
-/* Media Query for medium + screens */
-@media only screen and (min-width: 32.5em) {
+
 	.navigation {
 		display: flex;
 	}
@@ -223,14 +218,11 @@ div#message{background: #bcac4f;}
 div.showme{display:block;}
 div.hideme{display:none;}
 
-}
-
 /* Table styling 5 day forcast*/
 table, th, td {
 	border:3.5px solid  #bcac4f;
 	border-collapse: collapse;
 	padding: 5px;
-	
 	
 }
 
