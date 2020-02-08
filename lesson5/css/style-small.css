@@ -245,6 +245,7 @@ table, th, td {
 .forecast{
 	visibility: hidden;
 }
+
 th {
 	font-size: 18px;
 	background-color: #47aa9d;
