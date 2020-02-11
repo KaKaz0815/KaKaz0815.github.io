@@ -12,5 +12,20 @@
     main div {
         font-size: 1.5rem;
     }
-
+	h4 {
+		font-family: 'BenchNine', sans-serif;
+		color: black;
+		font-size: 2rem;
+		line-height: 12pt;
+	}
+	.currentWeather{
+		position: absolute;
+		bottom: 0%;
+		left: 25%;
+	  line-height: 8pt;
+	  opacity: 0.8;
+	}
+   p{
+	   font-size: 1rem;
+   }
 }

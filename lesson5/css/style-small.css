@@ -76,6 +76,12 @@ h3 {
     color:#bcac4f;
 }
 
+h4 {
+	font-family: 'BenchNine', sans-serif;
+    color: black;
+    font-size: 1.5rem;
+	line-height: 2pt;
+}
 
 
 
@@ -90,7 +96,27 @@ img{
 }
 
 
+.heroImage{	
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: white;
 
+}
+
+.currentWeather{
+	position: absolute;
+  bottom: 120px;
+  left: 8px;
+  line-height: 8pt;
+  opacity: 0.8;
+  padding: .5em;
+}
+
+.artImg{
+	width: 75%;
+}
 
 
 .active {
