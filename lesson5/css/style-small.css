@@ -102,13 +102,15 @@ img{
 	align-items: center;
 	justify-content: center;
 	background: white;
+	position: relative;
 
 }
 
 .currentWeather{
 	position: absolute;
-  bottom: 120px;
-  left: 8px;
+  bottom: auto;
+  right: auto;
+  left: 2em;
   line-height: 8pt;
   opacity: 0.8;
   padding: .5em;
@@ -193,6 +195,10 @@ nav a:hover {
 	color: #36454f;
 }
 
+nav .currentPage{
+	background-color: #bcac4f;
+	color: #36454f;
+}
 
 
 
@@ -267,10 +273,10 @@ table, th, td {
 	border:3.5px solid  #bcac4f;
 	border-collapse: collapse;
 	padding: 5px;
-	visibility: hidden;
+	
 }
 .forecast{
-	visibility: hidden;
+	display: none;
 }
 
 th {
@@ -290,3 +296,10 @@ td {
 tr img{
 	width: 75%;
 }
+
+.contactInfo{
+display: grid;
+	grid-template-columns: 1fr;
+}
+
+

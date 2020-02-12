@@ -20,8 +20,10 @@
 	}
 	.currentWeather{
 		position: absolute;
-		bottom: 0%;
-		left: 25%;
+		top: 3em;
+        bottom: auto;
+        right: auto;
+        left: 2em;
 	  line-height: 8pt;
 	  opacity: 0.8;
 	}
