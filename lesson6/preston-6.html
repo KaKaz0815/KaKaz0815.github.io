@@ -77,13 +77,21 @@
 
         <h2> Preston Idaho</h2>
         <div class="heroImage">
-            <img src="images/saint-maries-river.jpg" alt="St. Maries River ID">
-            <div class="currentWeather">
-                <h4>Weather Summary:</h4>
-                <p>Temperature: 50° F</p>
-                <p>Humidity: 10%</p>
-                <p>Sky: Cloudy</p>
-                <p>Wind Speed: 5mph</p>
+            <img src="" alt="images/cit230_image_franklinOriginal.jpeg" sizes="50vw" 
+                srcset="
+                images/cit230_image_franklin200.png 200w,
+                images/cit230_image_franklin500.png 500w,
+                images/cit230_image_franklin800.png 800w,
+                images/cit230_image_franklin1100.png 1100w,">
+           
+           
+                <div class="currentWeather">
+                <h4>Weather Summary</h4>
+                <p >Sky: Cloudy</p>
+                <p >Temperature:<span id="temp"> 50 </span></p>
+                <p >Wind Chill: <span id="calculateWindChillFacto"></span></p>
+                <p >Humidity: 10%</p>
+                <p >Wind Speed: <span id="wSpeed"> 5 </span></p>
             </div>
         
         </div>
@@ -163,7 +171,7 @@
         <span id="currentdate"></span>
            
     </footer>
-    <script src="/lesson5/js/script.js"></script>
+    <script src="/lesson6/js/script.js"></script>
     <script>
         const today = new Date();
             console.log(today);
