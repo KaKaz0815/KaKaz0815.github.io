@@ -90,7 +90,14 @@
                 grid-template-columns: 1fr 1fr;
             }
 
-        .map{
-            display: block;
-        }
+    /*Gallery*/
+.gallery{
+	
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-left: 5%;}
+
+.gallery img{
+	width: 300px;
+}
     }

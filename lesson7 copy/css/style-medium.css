@@ -1,0 +1,103 @@
+
+	/* Tablet Views */
+    @media only screen and (min-width: 37.5em) {
+        /* Horizontal Menu Examples */
+        /* Flex *********************/
+           
+            .navigation {
+                display: flex;
+            }
+            .navigation li {
+                display: block; 
+                flex: 1 1 100%;
+            }
+            
+            
+            .navigation li:first-child {
+                display: none;
+            }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        nav ul { display: flex; }
+            nav ul li { flex: 1 1 100%; }
+        
+        nav {
+	        
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+            nav a {
+            font-size: 1rem;
+        }
+        
+        main {
+            grid-template-columns: 1fr;
+            max-width: 767px;
+        }
+
+        main div {
+            font-size: 1rem;
+        }
+
+
+        article:nth-child(3) {
+            grid-column: span 1;
+        }
+    
+        h1 {
+            font-size: 2.25rem;
+            
+        }
+       
+
+     
+
+        #logo img{
+            width: 150px;
+        }
+        
+        table, th, td {
+            border:3.5px solid  #bcac4f;
+            border-collapse: collapse;
+            padding: 5px;
+            
+        }
+        .forecast{
+            display: block;
+        }
+
+        .currentWeather{
+            position: absolute;
+           top: 3em;
+            bottom: auto;
+            right: auto;
+            left: 2em;
+            line-height: 8pt;
+            opacity: 0.8;
+            padding: .5em;
+        }
+       
+        .contactInfo{
+            display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+
+    /*Gallery*/
+.gallery{
+	
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-left: 5%;}
+
+.gallery img{
+	width: 300px;
+}
+    }
