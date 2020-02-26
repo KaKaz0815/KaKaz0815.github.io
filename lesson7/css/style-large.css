@@ -36,13 +36,7 @@
  }
 
   /*Gallery*/
-.gallery{
-	
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	padding-left: 5%;}
 
-.gallery img{
-	width: 300px;
-}
+.container {margin: 1rem auto; display:grid; grid-template-columns: 1fr 1fr 1fr;}
+figcaption { display:grid;}
 }

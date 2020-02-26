@@ -307,13 +307,12 @@ display: grid;
 }
 
 /*Gallery*/
-.gallery{
-	
-	display: grid;
-	grid-template-columns: 1fr;
-	padding-left: 5%;}
 
-.gallery img{
-	width: 300px;
 
-}
+.container {margin: 1rem auto; display:grid; grid-template-columns: 1fr;}
+
+figure img { width: 250px; height: auto; margin: .5rem;}
+figcaption {font-size: smaller; text-align: center; display:none;}
+
+/* hover effect */
+.norm:hover {box-shadow: 0 0 50px #333;}
