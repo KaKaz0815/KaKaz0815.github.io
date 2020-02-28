@@ -91,8 +91,8 @@ img{
     margin-left: auto;
     margin-right: auto;
 	margin-top: .5rem;
-	padding: 1em;
 	width: 100%;
+	height: auto;
 }
 
 
@@ -311,7 +311,7 @@ display: grid;
 
 .container {margin: 1rem auto; display:grid; grid-template-columns: 1fr;}
 
-figure img { width: 250px; height: auto; margin: .5rem;}
+figure img { width: 100%; height: auto; margin: .5rem;}
 figcaption {font-size: smaller; text-align: center; display:none;}
 
 /* hover effect */
