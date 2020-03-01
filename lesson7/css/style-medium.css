@@ -96,6 +96,6 @@
 
 .container {margin: 1rem auto; display:grid; grid-template-columns: 1fr 1fr; max-width: 760px;}
 
-figure img { width: 100%; height: auto; margin: .5rem;}
+figure img { width: 100%; height: auto;}
 figcaption {font-size: smaller;}
     }
