@@ -37,7 +37,7 @@
 
   /*Gallery*/
 
-.container {margin: auto; display:grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 5px;  max-width: 760px;}
+.container {margin: auto; display:grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 25px;  max-width: 760px;}
 .container figure{ margin: auto;}
 figcaption { display:grid; }
 }
