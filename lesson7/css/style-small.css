@@ -163,7 +163,8 @@ li{
 }
 
 #logo img{
-    width: 100px;
+	width: 100px;
+	padding: 15px;
 }
 
 #icon img{

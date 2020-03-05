@@ -38,6 +38,6 @@
   /*Gallery*/
 
 .container {margin: auto; display:grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 25px;  max-width: 760px;}
-.container figure{ margin: auto;}
+.container figure{ margin: 10px 10px 10px 0px;}
 figcaption { display:grid; }
 }
