@@ -1,0 +1,43 @@
+/* Desktop View */
+@media only screen and (min-width: 60em) {
+	nav a {
+		font-size: 1.1rem;
+	}
+	main {
+		grid-template-columns: 1fr;
+	}
+	article:nth-child(3) {
+		grid-column: span 1;
+    }
+    main div {
+        font-size: 1.5rem;
+    }
+	h4 {
+		font-family: 'BenchNine', sans-serif;
+		color: black;
+		font-size: 2rem;
+		line-height: 12pt;
+	}
+	.currentWeather{
+		position: absolute;
+		top: 3em;
+        bottom: auto;
+        right: auto;
+        left: 2em;
+	  line-height: 8pt;
+	  opacity: 0.8;
+	}
+   p{
+	   font-size: 1rem;
+   }
+
+   .map{
+	display: block;
+ }
+
+  /*Gallery*/
+
+.container {margin: auto; display:grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 25px;  max-width: 760px;}
+.container figure{ margin: 10px 10px 10px 0px;}
+figcaption { display:grid; }
+}
